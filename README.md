@@ -22,6 +22,8 @@ public class Sf {
 	}
 	
 	public void InitWindowLog() {
+		//First args argument = Window Class
+		//Second args argument = Window Title
 		WindowLog.add(User32.INSTANCE.FindWindow ("D3DFocusWindow", null));
 		WindowLog.add(User32.INSTANCE.FindWindow ("SunAwtToolkit", null));
 		WindowLog.add(User32.INSTANCE.FindWindow ("IME", null));
