@@ -7,8 +7,6 @@ import java.util.ArrayList;
 import com.sun.jna.platform.win32.User32; 
 import com.sun.jna.platform.win32.WinDef.HWND;
 
-import gg.natsumi.k3ri.module.Module;
-
 import com.sun.jna.platform.win32.WinUser; 
 
 public class Sf {
